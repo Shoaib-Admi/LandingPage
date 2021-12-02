@@ -34,7 +34,7 @@ h3 {
 
 /* button */
 .btn {
-  padding: 0.5rem 2rem;
+  padding: 1rem 3rem;
   border-radius: 5px;
   outline: 0;
   border: 0;
@@ -121,4 +121,28 @@ h3 {
 }
 .callout .btn {
   justify-items: center;
+}
+/* Hero */
+
+.hero {
+  background: var(--color-dark);
+  color: var(--color-primary);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6rem;
+  align-items: center;
+  gap: 2rem;
+}
+.hero p {
+  color: var(--color-secondary);
+  margin-top: 0;
+}
+.hero h1 {
+  margin-bottom: 0;
+}
+.hero img {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 0 10px #545d69;
 }

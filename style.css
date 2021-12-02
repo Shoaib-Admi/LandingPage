@@ -98,3 +98,27 @@ h3 {
   position: absolute;
   right: 0;
 }
+
+/* Callout */
+
+.callout {
+  background: var(--color-accent);
+  border-radius: 10px;
+  display: flex;
+  height: 200px;
+  width: 1100px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.callout h3 {
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+.callout p {
+  color: var(--color-secondary);
+  margin-top: 0;
+}
+.callout .btn {
+  justify-items: center;
+}

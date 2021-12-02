@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #f9faf8;
+  --color-dark: #1f2937;
+  --color-secondary: #e5e7eb;
+  --color-accent: #3882f6;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 68.5%;
+}
+
+/* Typography */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
